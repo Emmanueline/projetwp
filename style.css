@@ -4,3 +4,16 @@ Author: Htmelles
 Description: Création d'un thème WordPress pour présenter le blog de la société REDLab
 Version: 1.0
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap');
+
+body {
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+.banner {
+    height: 750px;
+    background-image: no-repeat;
+    background-size: cover;
+}
