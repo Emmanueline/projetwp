@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8fc27f6-22fb-4f58-a8c1-5f4c14e74425" name="Default Changelist" comment=".">
+    <list default="true" id="e8fc27f6-22fb-4f58-a8c1-5f4c14e74425" name="Default Changelist" comment="style.css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608232308094</updated>
-      <workItem from="1608232309570" duration="5149000" />
+      <workItem from="1608232309570" duration="5981000" />
     </task>
     <task id="LOCAL-00001" summary="fichiers de base">
       <created>1608232476968</created>
@@ -94,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608238263692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="style.css">
+      <created>1608238317635</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608238317635</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,12 +128,13 @@
     <MESSAGE value="base footer" />
     <MESSAGE value="modif meta" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="style.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1608238268805">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1608238329090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608238268805" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608238329090" />
   </component>
 </project>

@@ -10,6 +10,11 @@ Version: 1.0
 body {
     margin-top: 40px;
     margin-right: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .banner {
