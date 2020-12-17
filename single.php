@@ -2,35 +2,44 @@
 
 
     <!-- Contenu principal -->
-    <main role="main" class="container">
+    <main role="main" class="container col-12">
         <div class="row">
-            <div class="col-md-8 blog-main">
+            <div class="col-12 blog-main bg-light">
+
 
                 <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
-                        <div class="card border-info mb-3" style="max-width: 50rem;">
-                            <div class="card-header"><?php the_title() ?></div>
-                            <div class="card-body text-info">
-                                <h5 class="card-title"><?php the_date(); ?> par <a href="#"><?php the_author() ?></a></h5>
+                        <div class="col-12 col-lg-8 mx-auto">
+                            <div class="card border-white mb-3 rounded-0" style="max-width: 50rem;">
+                                <div class="card-header"><?php the_title() ?></div>
                                 <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top', 'alt' =>'', 'style' => 'height: auto;']); ?>
-                                <p class="card-text"><?php the_content() ?></p>
+                                <div class="card-body">
+                                    <h5 class="card-title"><?php the_date(); ?> - <a href="#"><?php the_author() ?></a><a href="#"><?php the_category() ?></a></h5>
+                                    <p class="card-text"><?php the_content() ?></p>
+                                    <br>
+                                    <hr>
+                                </div>
                             </div>
                         </div>
                     <?php endwhile; ?>
                 <?php endif; ?>
-
-                <?php comments_template(); ?>
-
-                <!-- Pagination -->
-                <nav class="blog-pagination">
-                    <?php previous_post_link('Article Précédent : %link'); ?>
-                    <?php next_post_link('Article Suivant : %link'); ?>
-                </nav>
-
             </div>
-            <!-- Fin contenu principal -->
-            <?php get_sidebar() ?>
+            <div class="col-12 col-lg-8 mx-auto">
+                <div class="card border-white mb-3 rounded-0" style="max-width: 50rem;">
+                    <div class="card-body">
+                        <?php comments_template(); ?>
 
+                        <!-- Pagination -->
+                        <nav class="blog-pagination">
+                            <?php previous_post_link('Article Précédent : %link'); ?>
+                            <?php next_post_link('Article Suivant : %link'); ?>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Fin contenu principal -->
 
         </div><!-- /.row -->
 
