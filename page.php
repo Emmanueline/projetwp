@@ -6,16 +6,16 @@
         <div class="col-12 blog-main bg-light">
             <br>
 
+            <!-- Boucle WordPress pour la liste des articles -->
             <div class="col-6">
-                <!-- Boucle WordPress pour la liste des articles -->
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                     <?php if (!is_sticky()) : ?>
                         <div class="card bg-white border rounded-0" style="width: 30rem;">
                             <div class="blog-post card-body">
-                                <h2 class="blog-post-title card-title"><?php the_title() ?></h2>
-                                <p class="blog-post-meta"><?php the_date(); ?> par <a href="#" class="text-dark"><?php the_author() ?></a><a href="#"><?php the_category() ?></a></p>
-                                <hr class="my-4">
                                 <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top', 'alt' =>'', 'style' => 'height: auto;']); ?>
+                                <h2 class="blog-post-title card-title"><?php the_title() ?></h2>
+                                <p class="blog-post-meta"><?php the_date(); ?> par <a href="#" class="text-dark"><?php the_author() ?></a></p>
+                                <hr class="my-4">
                                 <div class="pb-4 mb-4"></div>
                                 <div class="lead">
                                     <?php the_excerpt() ?>
