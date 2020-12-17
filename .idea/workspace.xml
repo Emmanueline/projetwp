@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8fc27f6-22fb-4f58-a8c1-5f4c14e74425" name="Default Changelist" comment="single updt et suppr sidebar">
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+    <list default="true" id="e8fc27f6-22fb-4f58-a8c1-5f4c14e74425" name="Default Changelist" comment="base footer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608232308094</updated>
-      <workItem from="1608232309570" duration="2116000" />
+      <workItem from="1608232309570" duration="3470000" />
     </task>
     <task id="LOCAL-00001" summary="fichiers de base">
       <created>1608232476968</created>
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608234321255</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="base footer">
+      <created>1608234463170</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608234463170</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,12 +103,13 @@
     <MESSAGE value="home page changements" />
     <MESSAGE value="header updt" />
     <MESSAGE value="single updt et suppr sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="single updt et suppr sidebar" />
+    <MESSAGE value="base footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="base footer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1608234329164">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1608234477537">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608234329164" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608234477537" />
   </component>
 </project>

@@ -11,10 +11,10 @@
                     <?php while (have_posts()) : the_post(); ?>
                         <div class="col-12 col-lg-8 mx-auto">
                             <div class="card border-white mb-3 rounded-0" style="max-width: 50rem;">
-                                <div class="card-header"><?php the_title() ?></div>
                                 <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top', 'alt' =>'', 'style' => 'height: auto;']); ?>
+                                <br><h1 class="mx-auto h1"><?php the_title() ?></h1><br>
                                 <div class="card-body">
-                                    <h5 class="card-title"><?php the_date(); ?> - <a href="#"><?php the_author() ?></a><a href="#"><?php the_category() ?></a></h5>
+                                    <h5 class="card-subtitle mb-2 text-muted mx-auto"><?php the_date(); ?> - <a href="#" class="mx-auto"><?php the_author() ?></a> - <a href="#"><?php the_category() ?></a></h5>
                                     <p class="card-text"><?php the_content() ?></p>
                                     <br>
                                     <hr>
