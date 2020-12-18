@@ -14,7 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.5/examples/blog/blog.css" rel="stylesheet">
-    <link href="http://wordpress/wp-content/themes/tpfinal/style.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     <?php wp_head(); ?>
 </head>
