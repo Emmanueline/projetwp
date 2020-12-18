@@ -25,10 +25,12 @@ h1, h2, h3, h4, h5, p {
 
 .submit {
     background-color: #e12c2c;
-    color : #FFF;
-    border : none;
+    color: #FFF;
+    border: none;
     border-radius: 50%;
     content:"Envoyer";
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #comments::placeholder {
