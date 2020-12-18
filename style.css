@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5, p {
 
 /* Comments */
 
-textarea, input {border:1px solid #e4e4e4;}
 textarea {width:100%;}
 .comment-list, .children{list-style:none;}
 ul.children {list-style:none;padding-left:0px; margin-left:0px;}
