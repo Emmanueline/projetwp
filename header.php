@@ -49,7 +49,7 @@
                     <a class="nav-link disabled" href="https://www.redlab.io/la-blockchain" tabindex="-1" aria-disabled="true">Blockchain</a>
                 </li>
                 <li class="nav-item pull-right">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">L'agence</a>
+                    <a class="nav-link disabled" href="https://www.redlab.io/l-agence" tabindex="-1" aria-disabled="true">L'agence</a>
                 </li>
                 <li class="nav-item dropdown active pull-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
