@@ -32,12 +32,8 @@ h1, h2, h3, h4, h5, p {
     padding: 10px 20px 10px 20px;
 }
 
-textarea .comment {
-}
-
-.comment-author vcard > img {
-    border: 1px solid transparent;
-    border-radius : 10px;
+.comment byuser comment-author-htmelles bypostauthor even thread-even depth-1{
+    border: 1px solid black;
 }
 
 #comments::placeholder {
