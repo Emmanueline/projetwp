@@ -21,7 +21,7 @@
                 ?>
 
                 <div class="col-md-4 mx-auto">
-                    <a href="<?php bloginfo('url') ?>"><br><button class="btn-danger">Retourner sur la page d'accueil</button></a>
+                    <a href="<?php bloginfo('url') ?>"><br><button class="btn btn-danger px-5 rounded-pill">Retourner sur la page d'accueil</button></a>
                 </div>
 
             </div>
