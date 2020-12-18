@@ -45,8 +45,16 @@ h1, h2, h3, h4, h5, p {
 
 /* Images */
 
-.img-responsive{display: block;max-width: 100%;height: auto;margin: 0px auto;}
-.img-circle { border-radius: 50%; }
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
 
 /* Comments */
 
@@ -59,7 +67,8 @@ textarea {
 }
 
 ul.children {
-    list-style:none;padding-left:0px;
+    list-style:none;
+    padding-left:0px;
     margin-left:0px;
 }
 
@@ -86,7 +95,8 @@ ul.children {
 
 .comment-reply {
     position:absolute;
-    top:0px;right:0px;
+    top:0px;
+    right:0px;
     padding:5px 5px;
     background:#f5f5f5;
 }
