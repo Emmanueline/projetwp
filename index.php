@@ -13,10 +13,10 @@
                     <?php if (!is_sticky()) : ?>
                         <div class="card bg-white border rounded-0 mx-auto" style="width: 30rem; margin-left: 30px; margin-top: 50px;">
                             <div class="blog-post card-body">
+                                <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top', 'alt' =>'', 'style' => 'height: auto;']); ?>
                                 <h2 class="blog-post-title card-title"><?php the_title() ?></h2>
                                 <p class="blog-post-meta"><?php the_date(); ?> par <a href="#" class="text-dark"><?php the_author() ?></a><a href="#"><?php the_category() ?></a></p>
                                 <hr class="my-4">
-                                <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top', 'alt' =>'', 'style' => 'height: auto;']); ?>
                                 <div class="pb-4 mb-4"></div>
                                 <div class="lead">
                                     <?php the_excerpt() ?>
