@@ -15,7 +15,7 @@
                     <?php while (have_posts()) : the_post(); ?>
                         <div class="col-lg-8 mx-auto main"><style>.main { margin-top: -300px }</style>
                             <div class="card border-white mb-3 rounded-0" style="max-width: 50rem;">
-                                <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top', 'alt' =>'', 'style' => 'height: auto;']); ?>
+                                <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top', 'style' => 'height: auto;']); ?>" alt="<?php echo $alt; ?>
                                 <br><h1 class="mx-auto h1"><?php the_title() ?></h1><br>
                                 <div class="card-body">
                                     <h5 class="card-subtitle mb-2 text-muted text-center"><?php the_date(); ?> - <a href="#" class="text-center"><?php the_author() ?></a> - <a href="#"><?php the_category() ?></a></h5>

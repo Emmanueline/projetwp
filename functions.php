@@ -4,6 +4,17 @@ add_theme_support('post-thumbnails');
 add_theme_support('custom-logo');//fonction du chargement du logo
 add_theme_support('title-tag');
 
+function isa_add_img_title( $attr, $attachment = null ) {
+
+    $img_title = trim( strip_tags( $attachment->post_title ) );
+
+    $attr['title'] = $img_title;
+    $attr['alt'] = $img_title;
+
+    return $attr;
+}
+add_filter( 'wp_get_attachment_image_attributes','isa_add_img_title', 10, 2 );
+
 register_nav_menus( array(
     'main' => 'Menu Principal',
     'footer' => 'Bas de page',
