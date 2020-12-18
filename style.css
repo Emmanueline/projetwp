@@ -34,7 +34,7 @@ p.form-submit {
     padding : 0 1rem 0 1rem;
 }
 
-#comments::-webkit-input-placeholder::before {
+#comments::placeholder {
     color:grey;
     content:"Votre commentaire";
 }
