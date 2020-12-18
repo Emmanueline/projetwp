@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 <!-- Contenu principal -->
-<main role="main" class="container col-12">
+<main role="main" class="container">
     <div class="row">
         <br>
         <!-- Boucle WordPress pour la liste des articles -->
