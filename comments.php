@@ -8,7 +8,7 @@
             printf( _nx( '1 commentaire sur “%2$s”', '%1$s commentaires sur “%2$s”', get_comments_number(), 'Titre du commentaire'),
                 number_format_i18n( get_comments_number() ), get_the_title() );
             // On affiche le titre des commentaires avec une fonction qui affiche le singulier ou le pluriel
-            // ainsi que le nombre de commentaires à côté du titre
+            // Ainsi que le nombre de commentaires à côté du titre
             ?>
         </h3>
         <ul class="comment-list">
