@@ -10,12 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8fc27f6-22fb-4f58-a8c1-5f4c14e74425" name="Default Changelist" comment="modifs cards">
+    <list default="true" id="e8fc27f6-22fb-4f58-a8c1-5f4c14e74425" name="Default Changelist" comment="style.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608232308094</updated>
       <workItem from="1608232309570" duration="7554000" />
-      <workItem from="1608277362312" duration="5002000" />
+      <workItem from="1608277362312" duration="1047000" />
     </task>
     <task id="LOCAL-00001" summary="fichiers de base">
       <created>1608232476968</created>
@@ -120,14 +117,7 @@
       <option name="project" value="LOCAL" />
       <updated>1608240425766</updated>
     </task>
-    <task id="LOCAL-00011" summary=".">
-      <created>1608278888454</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1608278888454</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,15 +142,15 @@
     <MESSAGE value="single updt et suppr sidebar" />
     <MESSAGE value="base footer" />
     <MESSAGE value="modif meta" />
+    <MESSAGE value="." />
     <MESSAGE value="style.css" />
     <MESSAGE value="modifs cards" />
-    <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="modifs cards" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1608278889699">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1608240429869">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608278889699" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608240429869" />
   </component>
 </project>
