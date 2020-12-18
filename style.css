@@ -32,8 +32,10 @@ h1, h2, h3, h4, h5, p {
     padding: 10px 20px 10px 20px;
 }
 
-.comment byuser comment-author-htmelles bypostauthor even thread-even depth-1{
-    border: 1px solid black;
+.avatar {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 
 #comments::placeholder {
