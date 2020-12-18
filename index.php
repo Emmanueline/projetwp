@@ -17,7 +17,7 @@
                                 <hr class="my-4">
                                 <?php $thumb_id = get_post_thumbnail_id(get_the_ID());
                                 $alt = get_post_meta($thumb_id, '_wp_attachment_image_alt', true); ?>
-                                <img src="<?php the_post_thumbnail_url('post-thumbnails-home-page'); ?>" class="card-img-top" alt="<?php echo $alt; ?>">>
+                                <img src="<?php the_post_thumbnail_url('post-thumbnails-home-page'); ?>" class="card-img-top" alt="<?php echo $alt; ?>">
                                 <div class="pb-4 mb-4"></div>
                                 <div class="lead">
                                     <?php the_excerpt() ?>
