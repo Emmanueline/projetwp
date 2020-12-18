@@ -10,10 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c6fb1b-076d-4161-87f3-4884ecdbd3f3" name="Default Changelist" comment="Test de style du bouton Submit">
+    <list default="true" id="e8fc27f6-22fb-4f58-a8c1-5f4c14e74425" name="Default Changelist" comment="changement bannière">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-advancedanalytics.php" beforeDir="false" afterPath="$PROJECT_DIR$/category-advancedanalytics.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-bigdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/category-bigdata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-blockchain.php" beforeDir="false" afterPath="$PROJECT_DIR$/category-blockchain.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-iot.php" beforeDir="false" afterPath="$PROJECT_DIR$/category-iot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,35 +129,77 @@
       <option name="project" value="LOCAL" />
       <updated>1608278888454</updated>
     </task>
-    <task id="LOCAL-00012" summary="Test de style du bouton Submit">
-      <created>1608284621385</created>
+    <task id="LOCAL-00012" summary="modifs">
+      <created>1608286818592</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1608284621385</updated>
+      <updated>1608286818592</updated>
     </task>
-    <task id="LOCAL-00013" summary="Test de style du bouton Submit">
-      <created>1608284715354</created>
+    <task id="LOCAL-00013" summary="cards">
+      <created>1608294662094</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1608284715354</updated>
+      <updated>1608294662094</updated>
     </task>
-    <task id="LOCAL-00014" summary="Test de style du bouton Submit">
-      <created>1608284819232</created>
+    <task id="LOCAL-00014" summary="cards">
+      <created>1608294975835</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1608284819232</updated>
+      <updated>1608294975835</updated>
     </task>
-    <task id="LOCAL-00015" summary="Test de style du bouton Submit">
-      <created>1608285003040</created>
+    <task id="LOCAL-00015" summary="cards">
+      <created>1608295087010</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1608285003040</updated>
+      <updated>1608295087010</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="cards spacing">
+      <created>1608295161311</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608295161311</updated>
+    </task>
+    <task id="LOCAL-00017" summary="cards spacing">
+      <created>1608295367923</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608295367923</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changement de photo de bannière">
+      <created>1608295550622</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608295550622</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updt archive">
+      <created>1608295627198</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608295627198</updated>
+    </task>
+    <task id="LOCAL-00020" summary="changement bannière">
+      <created>1608295845965</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608295845965</updated>
+    </task>
+    <task id="LOCAL-00021" summary="changement bannière">
+      <created>1608296075654</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608296075654</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +227,22 @@
     <MESSAGE value="style.css" />
     <MESSAGE value="modifs cards" />
     <MESSAGE value="." />
-    <MESSAGE value="Test de style du bouton Submit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test de style du bouton Submit" />
+    <MESSAGE value="modifs" />
+    <MESSAGE value="cards" />
+    <MESSAGE value="cards spacing" />
+    <MESSAGE value="changement de photo de bannière" />
+    <MESSAGE value="updt archive" />
+    <MESSAGE value="changement bannière" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement bannière" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1608296079455">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608296079455" />
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608296071938">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608296071938" />
   </component>
 </project>
