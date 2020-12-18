@@ -12,12 +12,12 @@
                     <?php if (!is_sticky()) : ?>
                         <div class="card bg-white border rounded-0 mx-auto" style="width: 30rem; margin-left: 30px; margin-top: 50px;">
                             <div class="blog-post card-body">
-                                <h2 class="blog-post-title card-title"><?php the_title() ?></h2>
-                                <p class="blog-post-meta"><?php the_date(); ?> par <a href="#" class="text-dark"><?php the_author() ?></a><a href="#"><?php the_category() ?></a></p>
-                                <hr class="my-4">
                                 <?php $thumb_id = get_post_thumbnail_id(get_the_ID());
                                 $alt = get_post_meta($thumb_id, '_wp_attachment_image_alt', true); ?>
                                 <img src="<?php the_post_thumbnail_url('post-thumbnails-home-page'); ?>" class="card-img-top" alt="<?php echo $alt; ?>">
+                                <h2 class="blog-post-title card-title"><?php the_title() ?></h2>
+                                <p class="blog-post-meta"><?php the_date(); ?> par <a href="#" class="text-dark"><?php the_author() ?></a><a href="#"><?php the_category() ?></a></p>
+                                <hr class="my-4">
                                 <div class="pb-4 mb-4"></div>
                                 <div class="lead">
                                     <?php the_excerpt() ?>
