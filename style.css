@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, p {
     background-size: cover;
 }
 
+.comment-respond > label {
+    font-weight : bold;
+}
+
 p.form-submit {
     background-color: #e12c2c;
     color : #FFF;
