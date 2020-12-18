@@ -31,20 +31,18 @@
                 <?php endif; ?>
             <!--Fin boucle WordPress -->
 
-            <!-- Pagination -->
-            <nav class="blog-pagination text-dark">
-                <?php previous_posts_link('Articles Précédents'); ?>
-                <?php next_posts_link('Articles Suivants'); ?>
-            </nav>
-
-        </div>
-
 
         <!-- Fin contenu principal -->
 
     </div><!-- /.row -->
 </main><!-- /.container -->
+<!-- Pagination -->
+<nav class="blog-pagination text-dark mx-auto">
+    <?php previous_posts_link('Articles Précédents'); ?>
+    <?php next_posts_link('Articles Suivants'); ?>
+</nav>
 
+</div>
 
 <!-- Fin Contenu principal -->
 
