@@ -11,7 +11,7 @@
              <!-- Boucle WordPress pour la liste des articles -->
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                     <?php if (!is_sticky()) : ?>
-                        <div class="card bg-white border rounded-0" style="width: 25rem; margin-left: 50px; margin-bottom: 50px;">
+                        <div class="card bg-white border rounded-0 mx-auto" style="width: 30rem; margin-left: 30px; margin-top: 50px;">
                             <div class="blog-post card-body">
                                 <h2 class="blog-post-title card-title"><?php the_title() ?></h2>
                                 <p class="blog-post-meta"><?php the_date(); ?> par <a href="#" class="text-dark"><?php the_author() ?></a><a href="#"><?php the_category() ?></a></p>
