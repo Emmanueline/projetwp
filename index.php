@@ -1,13 +1,17 @@
 <?php get_header();?>
+<!-- Hero -->
+<header class="py-6 bg-image-full banner" style="background-image: url('https://cvanderc.chef2projet.digital/www/wordpress/wp-content/uploads/2020/12/iot.png">
+    <p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
+</header>
 
 <!-- Contenu principal -->
 <main role="main" class="container col-12">
-    <div class="row col-6 mx-auto">
+    <div class="row">
             <br>
              <!-- Boucle WordPress pour la liste des articles -->
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                     <?php if (!is_sticky()) : ?>
-                        <div class="card bg-white border rounded-0 gap-3" style="width: 30rem;">
+                        <div class="card bg-white border rounded-0" style="width: 25rem;">
                             <div class="blog-post card-body">
                                 <h2 class="blog-post-title card-title"><?php the_title() ?></h2>
                                 <p class="blog-post-meta"><?php the_date(); ?> par <a href="#" class="text-dark"><?php the_author() ?></a><a href="#"><?php the_category() ?></a></p>
