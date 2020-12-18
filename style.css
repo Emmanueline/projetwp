@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, p {
     background-size: cover;
 }
 
-input[type=submit] {
+.form-submit > input {
     background-color: #e12c2c;
     color : #FFF;
     border-radius: 50%;
