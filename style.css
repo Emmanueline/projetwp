@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, p {
     padding: 10px 20px 10px 20px;
 }
 
+textarea .comment {
+    width: 20px;
+}
+
 #comments::placeholder {
     color:grey;
     content:"Votre commentaire";
